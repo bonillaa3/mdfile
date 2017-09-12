@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <style type="text/css">
+           
+            body { margin: 0; }
+            
+            a { text-decoration: none; }
+            
+			.menu {
+            
+				
+                color: #FFF;
+                background-color: #83B;
+                
+                width: 100%;
+                margin: 0;
+                
+			}
+            
+            .menu li {
+                
+                display: block;
+                padding: 5px;
+                
+            }
+            
+			.menu>li {
+            
+				display:inline-block;
+                width: 91px
+			
+			}
+            
+            .menu ul {
+            
+				display: none;
+                
+                position: absolute;
+                
+                width: 100px; 
+				border: 1px solid #000;
+                
+                margin-top: 5px;
+                margin-left: -5px;
+                
+                padding: 0;
+			}
+            
+			.menu li:hover {
+            
+				background-color: #AAA;
+                
+			}
+			
+			.menu li:hover ul {
+            
+				display: block;
+				
+			}
+            
+		</style>
+	</head>
+    
+	<body>
+		<ul class="menu">
+			<li>
+				File
+				<ul>
+					<li><a href="#"> Open</a></li>
+					<li><a href="#"> Save</a></li>
+				</ul>
+			</li>
+			<li>
+				Options
+				<ul>
+					<li><a href="#"> Network</a></li>
+					<li><a href="#"> Social</a></li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
